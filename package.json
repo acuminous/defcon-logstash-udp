@@ -1,0 +1,23 @@
+{
+  "name": "defcon-logstash-udp",
+  "version": "0.0.1",
+  "description": "Forwards events to logstash via udp",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acuminous/defcon-logstash-udp"
+  },
+  "author": "Stephen Cresswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acuminous/defcon-logstash-udp/issues"
+  },
+  "homepage": "https://github.com/acuminous/defcon-logstash-udp",
+  "dependencies": {
+    "async": "^0.2.10",
+    "lodash": "^2.4.1"
+  }
+}
