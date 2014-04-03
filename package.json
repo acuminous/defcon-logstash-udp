@@ -1,6 +1,6 @@
 {
   "name": "defcon-logstash-udp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Forwards events to logstash via udp",
   "main": "plugin.js",
   "scripts": {
