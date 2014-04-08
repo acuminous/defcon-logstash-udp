@@ -5,10 +5,10 @@
 1. [logstash](http://logstash.net)
 
 ## Installation
-1. '''cd $DEFCON_INSTALL_DIR'''
-2. '''npm install defcon-logstash-udp'''
-3. '''Enable and configure 'defcon-logstash-udp' in your DEFCON configuration file, e.g.
-'''json
+1. ```cd $DEFCON_INSTALL_DIR```
+2. ```npm install defcon-logstash-udp```
+3. Enable and configure 'defcon-logstash-udp' in your DEFCON configuration file, e.g.
+```json
 {
     "plugins": {
         "installed": [
@@ -20,8 +20,8 @@
         }
     }
 }
-'''
-4. Restart defcon (you can do this via '''kill -s USRSIG2 <pid>''' if you want zero downtime)
+```
+4. Restart defcon (you can do this via ```kill -s USRSIG2 <pid>``` if you want zero downtime)
 
 ## Configuration
 
