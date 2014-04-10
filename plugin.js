@@ -1,12 +1,15 @@
 var dgram = require('dgram');
 var _ = require('lodash');
+var packageJson = require('./package.json');
 
 module.exports.create = create;
 
 function create(context, next) {
 
     var plugin = {
-        name: 'Logstash UDP'
+        version: packageJson.version,
+        description: packageJson.description,
+        repositoryUrl: packageJson.repository.url
     }    
 
     var logstash = context.config.logstash
